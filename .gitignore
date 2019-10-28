@@ -6,4 +6,4 @@
 *.tfstate.*
 
 # .tfvars files
-*.tfvars
+#*.tfvars <-- leaving this here for example
