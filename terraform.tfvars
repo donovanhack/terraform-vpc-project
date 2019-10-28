@@ -1,0 +1,7 @@
+mysql_username      = "rds_dba"
+mysql_password      = "Sup3rsecurePassw0rd"
+mysql_db_name       = "coolcompany"
+mysql_instance_size = "db.t2.micro"
+mysql_storage_size  = "20"
+ec2_instance_size   = "t2.micro"
+ec2_storage_size    = "10"
