@@ -43,5 +43,6 @@ resource "aws_route53_record" "coolcompany-cname" {
   name    = "mywebserver"
   type    = "CNAME"
   zone_id = aws_route53_zone.coolcompany_private_zone.zone_id
+  records = [aws_elb.coolcompany-elb.dns_name]
   ttl     = "60"
 }
