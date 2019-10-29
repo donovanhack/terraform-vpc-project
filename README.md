@@ -4,10 +4,12 @@ Terraform module for creating the following:
 
 1. VPC
 2. 4 X Subnets (Public, Private, 2 X Data)
-3. Elastic Load Balancer, exposed to internet on 80 and 443
-4. Route53 private hosted zone
-5. EC2 Instance with Nginx and attached to ELB (in private subnet)
-6. RDS MySQL DB instance in data subnet
+3. NAT Gateway for private subnet
+4. Internet Gateway for Public subnet 
+5. Elastic Load Balancer, exposed to internet on 80 and 443
+6. Route53 private hosted zone
+7. EC2 Instance with Nginx and attached to ELB (in private subnet)
+8. RDS MySQL DB instance in data subnet
 
 Configurable variables are listed below
 
